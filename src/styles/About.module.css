@@ -1,0 +1,64 @@
+.animated-intro {
+    opacity: 0;
+    transition: opacity 0.1s ease-in-out;
+  }
+  .btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .animated-intro.animated-intro-enter {
+    opacity: 0;
+  }
+  
+  .animated-intro.animated-intro-enter-active {
+    opacity: 1;
+  }
+  
+  .animated-intro.animated-intro-exit {
+    opacity: 1;
+  }
+  
+  .animated-intro.animated-intro-exit-active {
+    opacity: 0;
+  }
+ /* Define a 3D box */
+.box {
+    width: 100%;
+    height: 100vh;
+    background-color:transparent;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    line-height: 1rem;
+    word-spacing: 10px;
+    position: relative;
+    margin: 0 auto;
+    top: 50px;
+    transition: transform 0.5s ease-in-out;
+    
+  }
+
+ 
+  
+  @media (max-width:500px) {
+    .W{
+        display:flex;
+        justify-content:center ;
+        width: 100%;
+        height: auto;
+        background: linear-gradient(rgb(173, 131, 131),violet,);
+        
+    }
+    }
+   
+    
+  
+ 
+  
